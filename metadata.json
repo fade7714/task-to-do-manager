@@ -1,0 +1,6 @@
+{
+  "name": "To-Do List & Task Planner",
+  "description": "A modern, interactive to-do list featuring Kanban, Eisenhower Matrix, streak tracking, priority glow badges, subtasks, and sound effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
