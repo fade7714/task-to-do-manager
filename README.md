@@ -86,55 +86,6 @@ Designed by combining productivity psychology (Eisenhower Matrix, Kanban velocit
 
 ---
 
-## 🚀 Publishing to GitHub & GitHub Pages
-
-### Option A: Push to a New GitHub Repository
-
-1. **Initialize Git and commit**:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: TaskFlow Pro application"
-   ```
-
-2. **Create a new repository on GitHub**:
-   - Go to [GitHub New Repository](https://github.com/new).
-   - Give it a name (e.g., `taskflow-pro`).
-   - Leave "Initialize this repository with a README" **unchecked**.
-
-3. **Link and push**:
-   ```bash
-   git remote add origin https://github.com/YOUR_USERNAME/taskflow-pro.git
-   git branch -M main
-   git push -u origin main
-   ```
-
----
-
-### Option B: Deploy Free with GitHub Pages
-
-1. **Install `gh-pages`**:
-   ```bash
-   npm install --save-dev gh-pages
-   ```
-
-2. **Add homepage and scripts to `package.json`**:
-   ```json
-   "homepage": "https://YOUR_USERNAME.github.io/taskflow-pro",
-   "scripts": {
-     "predeploy": "npm run build",
-     "deploy": "gh-pages -d dist"
-   }
-   ```
-
-3. **Deploy**:
-   ```bash
-   npm run deploy
-   ```
-   Your app will be live at `https://YOUR_USERNAME.github.io/taskflow-pro`!
-
----
-
 ## 📄 License
 
 This project is open source and available under the [Apache-2.0 License](LICENSE).
